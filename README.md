@@ -4,7 +4,7 @@ How to preprocess the SQuAD dataset for various NLP tasks.
 ## Classes and Methods
 ### SquadGuru
 
-`SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required format of NLP task models. Currently, GEN_QA, GEN_QG and EXT_QA task input format is available. Extract the end-to-end feature X and groud-truth Y from SQuAD dataset using `SquadGuru` class.
+`SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required format of NLP task models. Currently, GEN_QA, GEN_QG and EXT_QA task's input format is available. Extract the end-to-end feature X and groud-truth Y from SQuAD dataset using `SquadGuru` class.
 
 - Constructor Signature
 
