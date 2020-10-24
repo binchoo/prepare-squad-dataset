@@ -43,3 +43,11 @@ Implements methods to parser the original SQuAD data into task-specific X, Y for
 ## Tokenizer
 
 Any tokenizer that implements `.tokenizer(text: str)`. In examples, `transformers/BertTokenizer` object is used.
+
+
+# Check Examples
+
+[Extractive QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Extractive%20QA%20Dataset.ipynb)
+[Generative QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QA%20Dataset.ipynb)
+[Generative QG Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QG%20Dataset.ipynb)
+
