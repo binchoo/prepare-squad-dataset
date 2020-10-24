@@ -1,8 +1,8 @@
 # prepare-squad-dataset
 How to preprocess the SQuAD dataset for various NLP tasks.
 
-# Classes and Methods
-## SquadGuru
+## Classes and Methods
+### SquadGuru
 
 `SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required format of NLP task models. Currently, GEN_QA, GEN_QG and EXT_QA task input format is available. Extract the end-to-end feature X and groud-truth Y from SQuAD dataset using `SquadGuru` class.
 
@@ -33,19 +33,19 @@ How to preprocess the SQuAD dataset for various NLP tasks.
   - Get `numpy` array shaped (N, 2) where N is the number of data.
   - Column of 0 is X, Column of 1 is Y.
 
-## SquadParser
+### SquadParser
 
-Implements methods to parser the original SQuAD data into task-specific X, Y format.
+`SquadParser` implements methods to parser the original SQuAD data into task-specific X, Y format.
 
 - `.from_nlp_task(task: str)`
   - Currently Available `task` : "GEN_QA" or "GEN_QG" or "EXT_QA"
 
-## Tokenizer
+### Tokenizer
 
 Any tokenizer that implements `.tokenizer(text: str)`. In examples, `transformers/BertTokenizer` object is used.
 
 
-# Check Examples
+## Check Examples
 
 [Extractive QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Extractive%20QA%20Dataset.ipynb)
 
