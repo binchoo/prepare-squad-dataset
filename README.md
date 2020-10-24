@@ -32,6 +32,8 @@ How to preprocess the SQuAD dataset for various NLP tasks.
 - `.to_numpy()`
   - Get `numpy` array shaped (N, 2) where N is the number of data.
   - Column of 0 is X, Column of 1 is Y.
+- `.to_file(x_outfile, y_outfile)`
+  - Write text files saving X and Y.
 
 ### SquadParser
 
