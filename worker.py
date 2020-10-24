@@ -73,6 +73,7 @@ class PrepareSQuAD:
         return pandas.DataFrame({'Input': self.X, 'Target':self.Y})
         
     def to_numpy(self):
+        import pandas
         return self.to_dataframe().to_numpy()
     
     def to_file(self, outfile_X, outfile_Y):
