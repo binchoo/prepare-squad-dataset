@@ -79,7 +79,7 @@ class PrepareSQuAD:
         with open(outfile_X, 'w', encoding='utf-8') as ox:
             with open(outfile_Y, 'w', encoding='utf-8') as oy:
                 ox.writelines("\n".join(self.X))
-                oy.writelines("\n".join(str(self.Y)))
+                oy.writelines("\n".join(list(map(str, self.Y))))
     
     def sep(self, s1, s2):
         return "{} [SEP] {}".format(s1, s2)
