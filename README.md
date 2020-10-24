@@ -48,6 +48,8 @@ Any tokenizer that implements `.tokenizer(text: str)`. In examples, `transformer
 # Check Examples
 
 [Extractive QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Extractive%20QA%20Dataset.ipynb)
+
 [Generative QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QA%20Dataset.ipynb)
+
 [Generative QG Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QG%20Dataset.ipynb)
 
