@@ -42,7 +42,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
 - `.from_nlp_task(task: str)`
   - Currently Available `task` are "GEN_QA" or "GEN_QG" or "EXT_QA".
 - `.parse(context: str, question: str:, answers: str iterable)`
-  - Parse given quesition-answers pair in given context(paragraph) from the SQuAD dataset.
+  - Parses given quesition-answers pair in given context(paragraph) from the SQuAD dataset.
 
 ### Tokenizer
 
