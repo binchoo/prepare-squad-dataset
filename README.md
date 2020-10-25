@@ -2,7 +2,7 @@
 How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer/) for various NLP tasks.
 
 ## Classes and Methods
-### SquadGuru
+### Class SquadGuru
 
 `SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required input formats of NLP tasks. Currently, GEN_QA, GEN_QG, and EXT_QA task's input format are available. Extract the end-to-end feature X and ground-truth Y from the SQuAD dataset by using the `SquadGuru` class.
 
@@ -35,7 +35,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
 - `.to_file(x_outfile, y_outfile)`
   - Writes text files saving X and Y.
 
-### SquadParser
+### Class SquadParser
 
 `SquadParser` implements methods to parse the original SQuAD dataset into the task-specific X, Y format.
 
