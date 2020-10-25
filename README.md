@@ -17,7 +17,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
   ```
 
   - Inject a `parser`, which the guru will use to extract X and Y data from the original squad dataset.
-  - Inject a `tokenizer` that will create tokenized X and Y.
+  - Inject a `tokenizer` that will create tokenized X and Y. If None, no tokenization.
   - Inject an str iterable of `tags` that describes the tags of the dataset to load.
   - Inject a float iterable of `versions` that describes the versions of the dataset to load.
 
