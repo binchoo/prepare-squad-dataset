@@ -1,5 +1,5 @@
 # prepare-squad-dataset
-How to preprocess the SQuAD dataset for various NLP tasks.
+How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer/) for various NLP tasks.
 
 ## Classes and Methods
 ### SquadGuru
