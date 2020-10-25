@@ -46,7 +46,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
 
 ### Tokenizer
 
-Any tokenizer that implements `.tokenizer(text: str)`. In examples, `transformers/BertTokenizer` object is used.
+Any tokenizer that implements `.tokenize(text: str)`. In examples, `transformers/BertTokenizer` object is used.
 
 
 ## Check Examples
