@@ -4,7 +4,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
 ## Classes and Methods
 ### Class SquadGuru
 
-`SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required input formats of NLP tasks. Currently, GEN_QA, GEN_QG, and EXT_QA task's input format are available. Extract the end-to-end feature X and ground-truth Y from the SQuAD dataset by using the `SquadGuru` class.
+`SuqadGuru` is an NLP expert who can easily change the original SQuAD dataset into one of the required input formats of NLP tasks. Currently, GEN_QA, GEN_QG, EXT_QA and CORPUS task's input format are available. Extract the end-to-end feature X and ground-truth Y from the SQuAD dataset by using the `SquadGuru` class.
 
 - Constructor Signature
 
@@ -40,7 +40,7 @@ How to preprocess the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer
 `SquadParser` implements methods to parse the original SQuAD dataset into the task-specific X, Y format.
 
 - `.from_nlp_task(task: str)`
-  - Currently Available `task` are "GEN_QA" or "GEN_QG" or "EXT_QA".
+  - Currently Available `task` are "GEN_QA" or "GEN_QG" or "EXT_QA" or "CORPUS".
 - `.parse(context: str, question: str:, answers: str iterable)`
   - Parses given quesition-answers pair in given context(paragraph) from the SQuAD dataset.
 
@@ -56,4 +56,6 @@ Any tokenizer that implements `.tokenize(text: str)`. In examples, [transformers
 [Generative QA Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QA%20Dataset.ipynb)
 
 [Generative QG Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QG%20Dataset.ipynb)
+
+[Corpus.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QG%20Dataset.ipynb)
 

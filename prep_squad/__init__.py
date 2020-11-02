@@ -8,3 +8,7 @@ from .parser import (
     GenerativeQAParser, 
     GenerativeQGParser
 )
+
+# Library Checks
+from .settings import TASKS, PARSERS
+assert( set(TASKS) == PARSERS.keys() )

@@ -62,6 +62,16 @@ class ExtractiveQAParser(SquadParser):
             y = ans['text']
             x,y = self.try_tokenizer(x, y)
             yield x, (x.find(y), len(y))
+
+class CorpusParser(SquadParser):
+    
+    def __init__(self):
+        self.prev_context = ''
+        
+    def parse(self, context, *args, **kwargs):
+        if self.prev_context != context:
+            yield context, None
+            self.prev_context = context
             
 '''
 class AnotherParserClass(SquadParser):
