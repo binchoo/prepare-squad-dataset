@@ -57,5 +57,5 @@ Any tokenizer that implements `.tokenize(text: str)`. In examples, [transformers
 
 [Generative QG Dataset.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Generative%20QG%20Dataset.ipynb)
 
-[Corpus.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)Corpus.ipynb)
+[SQuAD Corpus.ipynb](https://github.com/binchoo/prepare-squad-dataset/blob/master/Example\)SQuAD%20Corpus.ipynb)
 
