@@ -6,7 +6,8 @@ from .parser import (
     SquadParser, 
     ExtractiveQAParser, 
     GenerativeQAParser, 
-    GenerativeQGParser
+    GenerativeQGParser,
+    CorpusParse,
 )
 
 # Library Checks
